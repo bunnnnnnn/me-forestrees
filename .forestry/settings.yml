@@ -8,7 +8,7 @@ sections:
   path: portfolio
   label: Portfolio
   create: all
-  match: "**/*"
+  match: "**/*.md"
   templates:
   - portfolio
 - type: directory
