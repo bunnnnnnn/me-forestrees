@@ -20,5 +20,10 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: document
+  type: file
+  config:
+    maxSize: 64
+  label: Document
 pages:
 - portfolio/Upstream.md
