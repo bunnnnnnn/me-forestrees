@@ -7,14 +7,13 @@ sections:
 - type: document
   path: resume/**/*.md
   label: Resume
-  match: "**/*"
-  read_only: false
 - type: directory
   path: portfolio
   label: Portfolio
   create: all
   match: "**/*.md"
   templates:
+  - portfolio
   - portfolio
 - type: directory
   path: projects
